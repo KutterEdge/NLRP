@@ -1322,6 +1322,6 @@ html {
     -webkit-transform: translate3d(100px, 0, 0) scale(.6);
     transform: translate3d(100px, 0, 0) scale(.6)
   }
-}.text-lime {
-    color: lime;
+}.text-red {
+    color: red;
 }

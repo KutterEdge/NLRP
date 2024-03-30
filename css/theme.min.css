@@ -675,7 +675,7 @@ button {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color: red;
   text-decoration: none;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
 }
@@ -685,7 +685,7 @@ button {
   }
 }
 .nav-link:focus, .nav-link:hover {
-  color: var(--bs-nav-link-hover-color)
+  color: blue;
 }
 .navbar {
   --bs-navbar-padding-x: 0;
@@ -698,7 +698,7 @@ button {
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.5rem;
   --bs-navbar-brand-color: rgba(17, 17, 17, 0.9);
-  --bs-navbar-brand-hover-color: rgba(17, 17, 17, 0.9);
+  --bs-navbar-brand-hover-color: transparent;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -735,8 +735,8 @@ button {
 }
 .navbar-nav {
   --bs-nav-link-padding-x: 0;
-  --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-padding-y: 0.1rem;
+  --bs-nav-link-color: red;
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
@@ -746,16 +746,16 @@ button {
   list-style: none
 }
 .navbar-nav .nav-link.active, .navbar-nav .show > .nav-link {
-  color: var(--bs-navbar-active-color)
+  color: red;
 }
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
-  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-color: red;
+  --bs-navbar-hover-color: blue;
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
-  --bs-navbar-active-color: #fff;
+  --bs-navbar-active-color: #00ff00;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
-  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
+  --bs-navbar-toggler-border-color: transparent;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
 }
 .card {
@@ -1131,7 +1131,7 @@ html {
 .navbar.scrolled {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: #111
+  background-color: transparent
 }
 .link-fancy {
   color: #1717e5;

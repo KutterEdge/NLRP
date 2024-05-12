@@ -853,8 +853,8 @@ button {
     mask-position: -200% 0
   }
 }
-.fixed-top {
-  position: fixed;
+.auto-top {
+  position: auto;
   top: 0;
   right: 0;
   left: 0;

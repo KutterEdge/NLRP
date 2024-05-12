@@ -4282,7 +4282,7 @@ textarea.form-control-lg {
   --bs-modal-footer-bg: ;
   --bs-modal-footer-border-color: var(--bs-border-color);
   --bs-modal-footer-border-width: 1px;
-  position: fixed;
+  position: auto;
   top: 0;
   left: 0;
   z-index: var(--bs-modal-zindex);
@@ -4339,7 +4339,7 @@ textarea.form-control-lg {
   --bs-backdrop-zindex: 1050;
   --bs-backdrop-bg: #111;
   --bs-backdrop-opacity: 0.5;
-  position: fixed;
+  position: auto;
   top: 0;
   left: 0;
   z-index: var(--bs-backdrop-zindex);
@@ -4970,7 +4970,7 @@ textarea.form-control-lg {
 
 @media (max-width: 575.98px) {
   .offcanvas-sm {
-    position: fixed;
+    position: auto;
     bottom: 0;
     z-index: var(--bs-offcanvas-zindex);
     display: flex;
@@ -5035,7 +5035,7 @@ textarea.form-control-lg {
 
 @media (max-width: 767.98px) {
   .offcanvas-md {
-    position: fixed;
+    position: auto;
     bottom: 0;
     z-index: var(--bs-offcanvas-zindex);
     display: flex;
@@ -5100,7 +5100,7 @@ textarea.form-control-lg {
 
 @media (max-width: 991.98px) {
   .offcanvas-lg {
-    position: fixed;
+    position: auto;
     bottom: 0;
     z-index: var(--bs-offcanvas-zindex);
     display: flex;
@@ -5165,7 +5165,7 @@ textarea.form-control-lg {
 
 @media (max-width: 1199.98px) {
   .offcanvas-xl {
-    position: fixed;
+    position: auto;
     bottom: 0;
     z-index: var(--bs-offcanvas-zindex);
     display: flex;
@@ -5230,7 +5230,7 @@ textarea.form-control-lg {
 
 @media (max-width: 1679.98px) {
   .offcanvas-xxl {
-    position: fixed;
+    position: auto;
     bottom: 0;
     z-index: var(--bs-offcanvas-zindex);
     display: flex;
@@ -5294,7 +5294,7 @@ textarea.form-control-lg {
       background-color: transparent !important; } }
 
 .offcanvas {
-  position: fixed;
+  position: auto;
   bottom: 0;
   z-index: var(--bs-offcanvas-zindex);
   display: flex;
@@ -5342,7 +5342,7 @@ textarea.form-control-lg {
     visibility: visible; }
 
 .offcanvas-backdrop {
-  position: fixed;
+  position: auto;
   top: 0;
   left: 0;
   z-index: 1040;
@@ -5513,15 +5513,15 @@ textarea.form-control-lg {
 .ratio-21x9 {
   --bs-aspect-ratio: calc(9 / 21 * 100%); }
 
-.fixed-top {
-  position: fixed;
+.auto-top {
+  position: auto;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1030; }
 
-.fixed-bottom {
-  position: fixed;
+.auto-bottom {
+  position: auto;
   right: 0;
   bottom: 0;
   left: 0;
@@ -5738,8 +5738,8 @@ textarea.form-control-lg {
 .position-absolute {
   position: absolute !important; }
 
-.position-fixed {
-  position: fixed !important; }
+.position-auto {
+  position: auto !important; }
 
 .position-sticky {
   position: sticky !important; }
@@ -8929,7 +8929,7 @@ textarea.form-control-lg {
 html {
   scroll-behavior: smooth; }
 
-body.fixednav {
+body.autonav {
   margin-top: 108px; }
 
 .btn,

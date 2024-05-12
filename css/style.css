@@ -75,7 +75,7 @@ a:focus {
 /****** Loader & Back to Top ******/
 /**********************************/
 #loader {
-    position: fixed;
+    position: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -122,7 +122,7 @@ a:focus {
 }
 
 .back-to-top {
-    position: fixed;
+    position: auto;
     display: none;
     width: 44px;
     height: 44px;
@@ -236,7 +236,7 @@ a:focus {
 }
 
 .nav-bar.nav-sticky {
-    position: fixed;
+    position: auto;
     width: 100%;
     top: 0;
     left: 0;

@@ -290,7 +290,7 @@ a:focus {
 
 @media (min-width: 992px) {
     .nav-bar .navbar-brand {
-        display: none;
+        display: inline;
     }
 }
 
